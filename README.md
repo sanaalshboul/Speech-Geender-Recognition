@@ -1,5 +1,4 @@
 # Speech-Geender-Recognition
-Recognize gender using speech
 
 Gender recognition using voice is trained on Speech Accent Archive dataset [(download)](https://www.kaggle.com/rtatman/speech-accent-archive?select=speakers_all.csv "download"). The dataset consists of 2135 audio files; 1101 of them are males and 1034 are females. The participants’ ages range between 6-97 years and the following figure shows the distribution of the number of participants among ages. The number of languages that was used for collecting the dataset is 201 languages. One utterance [(Utterance)](https://github.com/sanaalshboul/Speech-Geender-Recognition/blob/master/reading-passage.txt "download") was used for recording the voice with utterance length of 73 words. 
 
@@ -24,7 +23,8 @@ Gender recognition using voice is trained on Speech Accent Archive dataset [(dow
 * Xgboost
 
 ## Data cleaning
-Run [(speakers_all.csv)](https://github.com/sanaalshboul/Speech-Geender-Recognition/blob/master/speakers_all.csv "download"), because it ccontains all steps from cleaning data to training.
+[(audio dataset)](https://github.com/sanaalshboul/Speech-Geender-Recognition/tree/master/recordings/recordings "download") contains 1000 audios of the dataset, because Github allows 1000 files to be submitted in one folder. You can download the dataset from this link [(download)](https://www.kaggle.com/rtatman/speech-accent-archive?select=speakers_all.csv "download").
+Run [(speakers_all.csv)](https://github.com/sanaalshboul/Speech-Geender-Recognition/blob/master/speakers_all.csv "download"), because it contains all steps from cleaning data to training.
 
 [(speakers_all.csv)](https://github.com/sanaalshboul/Speech-Geender-Recognition/blob/master/speakers_all.csv "download") contains all information about the recorded audios. So, before training the dataset it should be cleaned by removing the rows where:
 * The audio file is removed from the dataset ('file_missing' =True). 
