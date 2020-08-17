@@ -1,7 +1,7 @@
 # Speech-Geender-Recognition
 Recognize gender using speech
 
-Gender recognition using voice is trained on Speech Accent Archive dataset [(download)](https://www.kaggle.com/rtatman/speech-accent-archive?select=speakers_all.csv "download"). The dataset consists of 2135 audio files; 1101 of them are males and 1034 are females. The participants’ ages range between 6-97 and the following figure shows the distribution of the number of participants among ages. The number of languages that was used for collecting the dataset is 201 languages. One utterance was used for recording the voice with utterance length of 73 words. 
+Gender recognition using voice is trained on Speech Accent Archive dataset [(download)](https://www.kaggle.com/rtatman/speech-accent-archive?select=speakers_all.csv "download"). The dataset consists of 2135 audio files; 1101 of them are males and 1034 are females. The participants’ ages range between 6-97 years and the following figure shows the distribution of the number of participants among ages. The number of languages that was used for collecting the dataset is 201 languages. One utterance was used for recording the voice with utterance length of 73 words. 
 
   Info        |     Number    |
 ------------- | ------------- | 
