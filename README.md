@@ -24,6 +24,7 @@ Gender recognition using voice is trained on Speech Accent Archive dataset [(dow
 
 ## Data cleaning
 [(audio dataset)](https://github.com/sanaalshboul/Speech-Geender-Recognition/tree/master/recordings/recordings "download") contains 1000 audios of the dataset, because Github allows 1000 files to be submitted in one folder. You can download the dataset from this link [(download)](https://www.kaggle.com/rtatman/speech-accent-archive?select=speakers_all.csv "download").
+
 Run [(speakers_all.csv)](https://github.com/sanaalshboul/Speech-Geender-Recognition/blob/master/speakers_all.csv "download"), because it contains all steps from cleaning data to training.
 
 [(speakers_all.csv)](https://github.com/sanaalshboul/Speech-Geender-Recognition/blob/master/speakers_all.csv "download") contains all information about the recorded audios. So, before training the dataset it should be cleaned by removing the rows where:
